@@ -59,7 +59,7 @@ const Skills = () => {
         </div>
         <div className="mt-10 grid gap-6 lg:gap-8 lg:grid-cols-2 xl:grid-cols-3">
           {skills.map((skillCategory, index) => (
-            <div key={index} className="  shadow-lg p-6 bg-brown-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100">
+            <div key={index} className="  shadow-lg p-6 bg-brown-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-800">
               <h3 className="text-xl lg:text-2xl font-bold text-gray-300 dark:text-white">{skillCategory.category}</h3>
               <ul className="mt-4 space-y-2">
                 {skillCategory.list.map((skill, idx) => (

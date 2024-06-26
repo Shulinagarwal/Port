@@ -49,7 +49,7 @@ const Projects = () => {
           </div>
           <div className="mt-10 grid gap-8 lg:grid-cols-3 sm:grid-cols-2">
             {projects.map((project, index) => (
-              <div key={index} className="shadow-lg p-6 bg-brown-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100">
+              <div key={index} className="shadow-lg p-6 bg-brown-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-800">
                 <h3 className="text-xl font-bold text-gray-300 dark:text-white">{project.title}</h3>
                 <p className="mt-2 text-gray-300 dark:text-gray-300">{project.description}</p>
                 {project.features && (
