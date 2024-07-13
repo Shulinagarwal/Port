@@ -16,14 +16,14 @@ const Skills = () => {
     {
       category: 'Backend Development',
       list: [
-        { name: 'Node.js', proficiency: 85 },
-        { name: 'Express.js', proficiency: 80 },
+        { name: 'Node.js', proficiency: 75 },
+        { name: 'Express.js', proficiency: 70 },
       ],
     },
     {
       category: 'Database Management',
       list: [
-        { name: 'MySQL', proficiency: 80 },
+        { name: 'MySQL', proficiency: 60 },
         { name: 'MongoDB', proficiency: 75 },
       ],
     },
